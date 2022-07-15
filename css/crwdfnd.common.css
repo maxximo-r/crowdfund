@@ -1,0 +1,167 @@
+/* General CSS */
+.crwdfnd-margin-10{
+    margin: 10px;
+}
+.crwdfnd-margin-top-10{
+    margin-top: 10px;
+}
+.crwdfnd-margin-bottom-10{
+    margin-bottom: 10px;
+}
+.crwdfnd-hidden{
+    display: none;
+}
+
+.crwdfnd-yellow-box{
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;    
+}
+
+.crwdfnd-red-box {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #FFEBE8;
+    border-color: #CC0000;
+    color: #333333;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Wrap directly with this class (not to be used with a paragraph tag) */
+.crwdfnd-orange-box{
+    margin: 10px 0px;
+    padding: 15px 10px;
+    color: #3F2502;
+    text-shadow: 1px 1px #FFFFFF;
+    background-color: #FFF6D5;
+    border-color: #D1B655;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Wrap directly with this class (not to be used with a paragraph tag) */
+.crwdfnd-grey-box{
+    margin: 10px 0px;
+    padding: 15px 10px;
+    background-color: #DDDDDD;
+    border-color: #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Wrap directly with this class (not to be used with a paragraph tag) */
+.crwdfnd-green-box {
+    margin: 10px 0px;
+    padding: 15px 10px;
+    background-color: #CCF4D6;
+    border-color: #059B53;
+    color: #043B14;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* Membership buy buttons */
+.crwdfnd-button-wrapper input[type="submit"]{
+    width: auto !important;
+    height: auto !important;
+}
+.crwdfnd-button-wrapper input[type="image"]{
+    width: auto !important;
+    height: auto !important;    
+}
+
+/* Login form CSS */
+.crwdfnd-login-widget-form input,.crwdfnd-login-widget-form checkbox{
+    width: auto;
+}
+.crwdfnd-username-input, .crwdfnd-password-input{
+    margin-bottom: 10px;
+}
+.crwdfnd-login-submit{
+    margin-bottom: 10px;    
+}
+.crwdfnd-login-widget-action-msg{
+    font-weight: bold;    
+}
+.crwdfnd-logged-label{
+    font-weight: bold;
+}
+
+/* Password reset form CSS */
+.crwdfnd-pw-reset-widget-form table{
+    border: none;
+}
+.crwdfnd-pw-reset-widget-form tr{
+    border: none;
+}
+.crwdfnd-pw-reset-widget-form td{
+    border: none;
+}
+.crwdfnd-reset-pw-error{
+    font-weight: bold;
+    color: red;
+}
+.crwdfnd-reset-pw-success-box{
+    margin: 10px 0px;
+    padding: 15px 10px;
+    background-color: #CCF4D6;
+    border-color: #059B53;
+    color: #043B14;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;    
+}
+
+/* Registration form CSS */
+.crwdfnd-registration-widget-form td{
+    min-width: 100px;
+}
+
+.crwdfnd-registration-widget-form input[type="text"], .crwdfnd-registration-widget-form input[type="password"]{
+    width: 95%;
+    position: relative;
+}
+
+/* Edit profile form CSS */
+.crwdfnd-edit-profile-form input[type="text"], .crwdfnd-edit-profile-form input[type="password"] {
+    width: 95%;
+}
+.crwdfnd-edit-profile-form select {
+    width: 95%;
+}
+.crwdfnd-edit-profile-submit-section{
+    text-align: center;
+}
+
+.crwdfnd-profile-account-delete-section{
+    text-align: center;
+}
+.crwdfnd-profile-account-delete-section a{
+    color: red !important;
+}
+.crwdfnd-profile-update-success{
+    font-weight: bold;
+    color: green;    
+}
+.crwdfnd-profile-update-error{
+    font-weight: bold;
+    color: red;    
+}
+/* Misc CSS */
+.crwdfnd-restricted{
+    font-weight: bold;
+    color:red;
+}
+.crwdfnd-select-box-left{
+    margin: 0;
+    padding-bottom: 5px;
+}
