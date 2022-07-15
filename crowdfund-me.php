@@ -5,7 +5,6 @@ Version: 5.3
 Author: paramir
 Description: An open source decentralized solution for Crowdfunding inside WordPress with a content protection system and membership control.
 Text Domain: crowdfund-me
-Domain Path: /languages/
 Requires PHP: 5.6
 */
 
